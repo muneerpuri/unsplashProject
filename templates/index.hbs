@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Project</title>
+</head>
+<body>
+    <div class="header">
+        {{title}}
+    </div>
+    {{>header}}
+    <div class="randomImageSection">
+        <img src={{imgSrc}} alt="">
+        <div class="randomDescription">
+           this image was shot by  &nbsp;<span class="photographer">{{shotBy}}</span> 
+        </div>
+    </div>
+
+    <div class="imagesContainer">
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+        <div class="card">
+            <img src={{imgSrc}}>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
