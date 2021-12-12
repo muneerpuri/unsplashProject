@@ -102,3 +102,14 @@
     padding: 15px;
     cursor: pointer;
 }
+
+@media all and (max-width:500px){
+    .randomImageSection{
+        flex-direction: column;
+        width: 100%;
+    }
+    .randomDescription{
+        flex-direction: column;
+        width: 100%;
+    }
+}
